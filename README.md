@@ -18,7 +18,7 @@ SERVER_ROOT="/var/www"
 SERVER_APP="html"
 SERVER_TZ="Asia/Jakarta"
 INSTALL_PHP=Y
-INSTALL_PHP_VERSION=("7.4" "8.1")
+INSTALL_PHP_VERSION=("7.4" "8.3")
 INSTALL_NGINX=Y
 INSTALL_APACHE=Y
 INSTALL_MARIADB=Y
@@ -47,7 +47,7 @@ OR simply:
 ## Using multiple PHP versions
 If you are using `Apache2`, you can use the following command to switch to another php version:
 - `phpset7` to switch to php7.4
-- `phpset8` to switch to php8.1
+- `phpset8` to switch to php8.3
 
 You can add/modify more php versions by adding more `phpset` commands in the `~/.bash_aliases` file.
 

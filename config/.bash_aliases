@@ -20,7 +20,7 @@ alias phptail="sudo truncate -s 0 /var/log/php*.log && sudo tail -f /var/log/php
 phpunset() { for ver in $(ls /etc/php); do sudo a2disconf php$ver-fpm; done; }
 alias phpset5="phpunset && sudo a2enconf php5.6-fpm && ap2load"
 alias phpset7="phpunset && sudo a2enconf php7.4-fpm && ap2load"
-alias phpset8="phpunset && sudo a2enconf php8.1-fpm && ap2load"
+alias phpset8="phpunset && sudo a2enconf php8.3-fpm && ap2load"
 
 # Redis
 alias redisboot="sudo service redis-server restart"
